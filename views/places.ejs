@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js"  lang="en">
+
+	<head>
+		<%- include('layouts/header')-%>
+	</head>
+
+	<body>
+		<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+			your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		<%- include('layouts/navbar')-%>
+
+		
+		<!--about-us start -->
+		<section id="home" class="about-us" style="background: url('images/places.jpg')no-repeat;">
+			<div class="container">
+				<div class="about-us-content">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="single-about-us">
+								<div class="about-us-txt">
+									<h2>
+										A Whole New Places To Be Visited
+
+									</h2>
+							
+								</div><!--/.about-us-txt-->
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+						<div class="col-sm-0">
+							<div class="single-about-us">
+								
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.about-us-content-->
+			</div><!--/.container-->
+
+		</section><!--/.about-us-->
+		<!--about-us end -->
+
+		<!--travel-box start-->
+
+	
+		
+		<!--/.travel-box-->
+		<!--travel-box end-->
+
+     
+
+	
+
+
+		<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="single-travel-boxes">
+        					<div id="desc-tabs" class="desc-tabs">
+
+								<ul class="nav nav-tabs" role="tablist">
+
+									<li role="presentation" class="active">
+									 	<a href="#entertainment" aria-controls="entertainment" role="tab" data-toggle="tab">
+									 		<i class="fa fa-shopping-bag"></i>
+									 		Entertainment
+									 	</a>
+									</li>
+
+									<li role="presentation">
+										<a href="#medical" aria-controls="medical" role="tab" data-toggle="tab">
+											<i class="fa fa-medkit"></i>
+											Medical
+										</a>
+									</li>
+
+									<li role="presentation">
+									 	<a href="#tourism" aria-controls="tourism" role="tab" data-toggle="tab">
+									 		<i class="fa fa-plane"></i>
+									 		Tourism
+									 	</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+
+									<div role="tabpanel" class="tab-pane active fade in" id="entertainment">
+										<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>Choose your destination</h2>
+														<form>
+
+														<div class="travel-select-icon">
+															<select class="form-control" id="entertainmentDest">
+
+															  	<option value="all">All</option><!-- /.option-->
+															  	<option value="cairo">Cairo</option><!-- /.option-->
+																<option value="giza">Giza</option><!-- /.option-->
+															  	
+															  	
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+													
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-6 col-md-6 col-sm-8">
+													<div class="single-tab-select-box">
+														<h2>Type</h2>
+														<div class="travel-select-icon">
+														<select class="form-control" id="entertainmentType">
+
+														<option value="all">All</option><!-- /.option-->
+														<option value="restaurant">Restaurants</option><!-- /.option-->
+														<option value="cinema">Cinemas</option><!-- /.option-->
+														<option value="cafe">Cafe</option><!-- /.option-->
+														<option value="coworking">Co-working spaces</option><!-- /.option-->
+														<option value="mall">Malls</option><!-- /.option-->
+														<option value="garden">Gardens</option><!-- /.option-->
+														<option value="supermarket">Supermarkets</option><!-- /.option-->
+														<option value="circus">Circus</option><!-- /.option-->
+
+
+														</select><!-- /.select-->
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											
+
+											
+
+												
+										
+
+											</div><!--/.row-->
+
+											<div class="row">
+								
+												<div class="col-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<input type="button" class="about-view travel-btn" id="entertainment_submit" value="search">
+																<!--</a>-->
+														<!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+										</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+								</form>
+									<div role="tabpanel" class="tab-pane fade in" id="medical">
+									<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>Choose your destination</h2>
+														<form>
+														<div class="travel-select-icon">
+															<select class="form-control " id="medicalDest">
+
+																<option value="all">All</option><!-- /.option-->
+																<option value="cairo">Cairo</option><!-- /.option-->
+																<option value="giza">Giza</option><!-- /.option-->
+																
+																
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+													
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-6 col-md-6 col-sm-8">
+													<div class="single-tab-select-box">
+														<h2>Type</h2>
+														<div class="travel-select-icon">
+														<select class="form-control " id="medicalType">
+
+														<option value="all">All</option><!-- /.option-->
+														<option value="hospital">Hospitals</option><!-- /.option-->
+														<option value="pharmacy">Pharmacies</option><!-- /.option-->
+														<option value="laboratory">Laboratories</option><!-- /.option-->
+
+
+														</select><!-- /.select-->
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+
+											</div><!--/.row-->
+
+											<div class="row">
+
+												<div class="col-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<input type="button" class="about-view travel-btn" id="medical_submit" value="search">
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+											</div><!--/.tab-para-->
+										</form>
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="tourism">
+									<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>Choose your destination</h2>
+														<form>
+														<div class="travel-select-icon">
+															<select class="form-control " id="tourismDest">
+
+																<option value="all">All</option><!-- /.option-->
+																<option value="cairo">Cairo</option><!-- /.option-->
+																<option value="giza">Giza</option><!-- /.option-->
+																
+																
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+													
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-6 col-md-6 col-sm-8">
+													<div class="single-tab-select-box">
+														<h2>Type</h2>
+														<div class="travel-select-icon">
+														<select class="form-control " id="tourismType">
+
+														<option value="all">All</option><!-- /.option-->
+														<option value="mosque">Mosques</option><!-- /.option-->
+														<option value="church">Churchs</option><!-- /.option-->
+														<option value="museum">Museums</option><!-- /.option-->
+														<option value="pyramid">Pyramids</option><!-- /.option-->
+														<option value="palace">Palaces</option><!-- /.option-->
+
+
+														</select><!-- /.select-->
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+
+
+											
+
+												
+
+
+											</div><!--/.row-->
+											<div class="row">
+
+												<div class="col-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<input type="button" class="about-view travel-btn" id="tourism_submit" value="search">
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+								
+
+											</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+								</form>
+								</div><!--/.tab content-->
+							</div><!--/.desc-tabs-->
+        				</div><!--/.single-travel-box-->
+        			</div><!--/.col-->
+        		</div><!--/.row-->
+        	</div><!--/.container-->
+
+        </section>
+
+
+
+<div class="container" id="searchResults" style="display: none">
+
+		<div class="container">
+			<div class="gallary-header text-center">
+				<h2>
+					Search Results
+				</h2>
+			</div>
+
+			<div class="row text-center d-block testimonial align-items-center" id="testemonial">
+				
+	
+
+
+			</div>
+
+
+		</div>	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<%- include('layouts/footer')-%>
+
+
+	</body>
+
+</html>
